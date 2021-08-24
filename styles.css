@@ -1,12 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     box-sizing: border-box;
 }
 body {
     background-color: 
+    line-height: 1.4;
 }
-
+h1, h2 {
+    font-family: 'Roboto';
+}
 img {
     width: 100%;
     max-width: 600px;
-    border: 2px solid
+    border: 2px solid;
+}
+
+h2:hover {
+    color: #32FAC3;
 }
